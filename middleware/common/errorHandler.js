@@ -19,6 +19,8 @@ const defaultErrorHandler = (err, req, res, next) => {
     // json response
     res.json(res.locals.error);
   }
+
+  // next()
 };
 
 // exports
